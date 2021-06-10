@@ -12,13 +12,13 @@ Pod::Spec.new do |s|
   s.summary          = 'LoopKit pod.'
 
   s.description      = <<-DESC
-CocoaPods version of LoopKit/merge-from-tidepool.
+CocoaPods version of LoopKit.
                        DESC
 
   s.homepage         = 'https://github.com/drewmacneil/LoopKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'drewmacneil' => 'drewm@hey.com' }
-  s.source           = { :git => 'https://github.com/drewmacneil/LoopKit.git', :tag => s.version.to_s, :branch => 'merge-from-tidepool' }
+  s.source           = { :git => 'https://github.com/drewmacneil/LoopKit.git', :tag => s.version.to_s, :branch => 'dev' }
 
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
