@@ -23,7 +23,7 @@ CocoaPods version of LoopKit.
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
 
-  s.source_files = 'LoopKit/**/*.{swift}', 'Common/**/*.{swift}', 'Extensions/**/*.{swift}'
+  s.source_files = 'LoopKit/**/*.{swift,xcdatamodeld,xcmappingmodel}', 'Common/**/*.{swift}', 'Extensions/**/*.{swift}'
   
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
